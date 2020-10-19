@@ -1,4 +1,6 @@
+*.egg-info
 *.pyc
-._*
 .DS_Store
+._*
 .idea
+.pytest_cache
