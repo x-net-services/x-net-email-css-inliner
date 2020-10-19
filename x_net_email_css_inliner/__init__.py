@@ -1,3 +1,3 @@
-from .inliner import EmailCSSInliner
+from .inliner import EmailCSSInliner  # noqa
 
 __version__ = "1.0.0"
