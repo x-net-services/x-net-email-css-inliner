@@ -20,7 +20,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         "beautifulsoup4==4.9.3",
-        "requests==2.19.1",
+        "requests==2.24.0",
         "tinycss2==1.0.2",
     ],
     classifiers=[
