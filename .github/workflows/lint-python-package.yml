@@ -1,4 +1,4 @@
-name: x-net-email-css-inliner
+name: Lint python package
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.6'
+        python-version: "3.6"
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
