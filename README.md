@@ -10,6 +10,9 @@ with style tags. Here's what the inliner does:
 * *Inlining CSS:* All of your CSS is embedded directly into the HTML as style attributes on each tag.
 * CSS inside a *@media* block can't be inlined, so it's put in a `<style>` tag.
 
+You can use our great [X-Net Django Email Template](https://github.com/x-net-services/x-net-django-email-template)
+with the *X-Net Email CSS Inliner*
+
 ## Installation
 
 ```
