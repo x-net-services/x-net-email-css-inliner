@@ -19,7 +19,7 @@ soup = BeautifulSoup(html, "html.parser")
 
 
 def test_existing_inline_css():
-    """Test if inline css exists on HTML tags"""
+    """Test if inline css exists on HTML tags."""
     assert soup.find("body").has_attr("style") is True, "<body> has no inline style"
     assert soup.find("table").has_attr("style") is True, "<table> has no inline style"
     assert soup.find("tr").has_attr("style") is True, "<tr> has no inline style"
@@ -32,5 +32,5 @@ def test_existing_inline_css():
 
 
 def test_existing_media_query():
-    """Test if <style> and media query exists"""
+    """Test if <style> and media query exists."""
     assert str(soup.find("style")).startswith("<style>@media") is True, "No <style> with a media_query found"
